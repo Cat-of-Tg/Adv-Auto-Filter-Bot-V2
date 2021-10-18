@@ -63,7 +63,12 @@ async def start(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
-
+  
+    await update.reply_photo(
+        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
+        caption=START_TEXT.format(update.from_user.first_name),
+        reply_markup=reply_markup,
+    )
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
