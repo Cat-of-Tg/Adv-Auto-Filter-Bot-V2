@@ -51,8 +51,6 @@ async def start(bot, update):
         
     ],[
         InlineKeyboardButton('GROUP', url='https://t.me/movie_x_zone')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -70,7 +68,7 @@ async def start(bot, update):
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ', callback_data='start'),
+        InlineKeyboardButton('Home ', data='start'),
         InlineKeyboardButton('About ', callback_data='about')
     ],[
         InlineKeyboardButton('Close ', callback_data='close')
