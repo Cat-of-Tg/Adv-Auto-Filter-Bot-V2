@@ -65,10 +65,11 @@ async def start(bot, update):
     )
   
     await update.reply_photo(
+        chatid_id=update.chat.id,
         "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
         caption=START_TEXT.format(update.from_user.first_name),
         reply_markup=reply_markup,
-        reply_to_message_id=update.message!_id
+        
     )
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
