@@ -9,7 +9,12 @@ class Translation(object):
  ഗ്രൂപ്പിൽ മാത്രമേ സപ്പോർട്ട് ആവുകയുള്ളൂ. എന്തായാലും ഇവിടം വരെ വന്നതല്ലേ
  ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ആയില്ലെങ്കിൽ ജോയിൻ ആയെക്ക്
 
-</b>"""  
+</b>""" 
+    await update.reply_photo(
+        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
+        caption=START_TEXT.format(update.from_user.first_name),
+        reply_markup=reply_markup,
+    )
 
 
     HELP_TEXT = """
@@ -55,9 +60,3 @@ class Translation(object):
 
 
 """
-
-await update.reply_photo(
-        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
-        caption=START_TEXT.format(update.from_user.first_name),
-        reply_markup=reply_markup,
-    )
