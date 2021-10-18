@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG
 
-import await
+#😶‍🌫️😶‍🌫️😶‍🌫️😶‍🌫️
 
 await update.reply_photo(
         "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
