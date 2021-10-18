@@ -2,6 +2,13 @@
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG
 
+import await
+
+await update.reply_photo(
+        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
+        caption=START_TEXT.format(update.from_user.first_name),
+        reply_markup=reply_markup,
+    )
 class Translation(object):
 
     START_TEXT = """<b>Hey {}!!
@@ -10,11 +17,7 @@ class Translation(object):
  ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ആയില്ലെങ്കിൽ ജോയിൻ ആയെക്ക്
 
 </b>""" 
-    await update.reply_photo(
-        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
-        caption=START_TEXT.format(update.from_user.first_name),
-        reply_markup=reply_markup,
-    )
+     
 
 
     HELP_TEXT = """
