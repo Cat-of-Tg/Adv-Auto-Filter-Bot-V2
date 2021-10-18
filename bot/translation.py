@@ -4,12 +4,6 @@
 
 class Translation(object):
 
-
-    await update.reply_photo(
-        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
-        caption=START_TEXT.format(update.from_user.first_name),
-        reply_markup=reply_markup,
-    )
     START_TEXT = """<b>Hey {}!!
 ഹലോ മച്ചാനെ ഞാൻ @Movie_x_Zone.
  ഗ്രൂപ്പിൽ മാത്രമേ സപ്പോർട്ട് ആവുകയുള്ളൂ. എന്തായാലും ഇവിടം വരെ വന്നതല്ലേ
@@ -61,3 +55,9 @@ class Translation(object):
 
 
 """
+
+await update.reply_photo(
+        "https://telegra.ph/file/e91432e7b5460937acf63.jpg",
+        caption=START_TEXT.format(update.from_user.first_name),
+        reply_markup=reply_markup,
+    )
