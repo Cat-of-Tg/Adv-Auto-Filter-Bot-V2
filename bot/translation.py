@@ -5,11 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!
-
-
-..ഹലോ മച്ചാനെ ഞാൻ [Movie X Zone](t.me/movie_x_zone)
+ഹലോ മച്ചാനെ ഞാൻ @Movie_x_Zone
  ഗ്രൂപ്പിൽ മാത്രമേ സപ്പോർട്ട് ആവുകയുള്ളൂ. എന്തായാലും ഇവിടം വരെ വന്നതല്ലേ ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ആയില്ലെങ്കിൽ ജോയിൻ ആയെക്ക് 
-@MovieX_Zone
+
 </b>"""    
     
     HELP_TEXT = """
