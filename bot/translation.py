@@ -4,21 +4,19 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>Hey {}!!
 
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
-For More Details Click Help Button Below..
+..ഹലോ മച്ചാനെ ഞാൻ [Movie X Zone](t.me/movie_x_zone)
+ ഗ്രൂപ്പിൽ മാത്രമേ സപ്പോർട്ട് ആവുകയുള്ളൂ. എന്തായാലും ഇവിടം വരെ വന്നതല്ലേ ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ആയില്ലെങ്കിൽ ജോയിൻ ആയെക്ക് 
 @MovieX_Zone
-</i>"""    
+</b>"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
 
 <i>
--> Add Me To Any Group And Make Me Admin
--> Add Me To Your Desired Channel
+ഞാൻ @Movie_x_zone ൽ മാത്രം വർക്ക്‌ ആകു 
 </i>
 
 <b>Bot Commands (Works Only In Groups) :</b>
