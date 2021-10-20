@@ -43,17 +43,22 @@ class Translation(object):
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@MovieX_Zone
+
 @Movie_x_Zone
 """
     
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ ɴᴀᴍᴇ</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/MovieX_Zone">MovieX Zone</a></i></b>
+<b>➥ ᴄʀᴇᴀᴛᴏʀ</b> : <b><i><a href="https://t.me/MovieX_Zone">MovieX Zone</a></i></b>
 
-<b>➥ Language</b> : <code>Python3</code>
 
-<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+<b>➥ ᴇᴅɪᴛᴏʀ</b> : <b><i><a href="https://t.me/ok_bie_bot">Jinn</a></i></b>
+
+
+<b>➥ ʟᴀɴɢᴜɢᴇ</b> : <code>Python3</code>
+
+
+<b>➥ ʟɪʙʀᴀʀʏ</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
 
 """
